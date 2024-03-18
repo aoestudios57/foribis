@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Lebenslauf-html</title>
+    <link rel="stylesheet" href="style.css" />
+    <script src="script.js"></script>
+  </head>
+  <body>
+    <canvas id="c"></canvas>
+    <script src="background.js"></script>
+    <script src="button.js"></script>
+    <div id="content">
+      <img src="bild.png" alt="bild" />
+      <br />
+      <br />
+      <br />
+      <br />
+      <h1>Mein Lebenslauf</h1>
+
+      <br />
+      <button
+        class="navbtn"
+        id="personalbtn"
+        onclick="toggle('personal', 'personalbtn')"
+      >
+        Informationen
+      </button>
+      <button class="navbtn" id="workbtn" onclick="toggle('work', 'workbtn')">
+        Berufserfahrung
+      </button>
+      <button
+        class="navbtn"
+        id="edubtn"
+        onclick="toggle('education', 'edubtn')"
+      >
+        Schulbildung
+      </button>
+      <button
+        class="navbtn"
+        id="skillbtn"
+        onclick="toggle('skills', 'skillbtn')"
+      >
+        IT-Fähigkeiten
+      </button>
+      <br />
+      <br />
+      <div class="info" id="personal">
+        <p>CEO OF AOESTUDIOS</p>
+        <p>Ibis Acam beste firma</p>
+        <p>+43 123456789</p>
+        <p>admin@admin.com></p>
+      </div>
+
+      <div class="info" id="work">
+        <p>ibis acam 2021-2025</p>
+      </div>
+
+      <div class="info" id="education">
+        <a
+          style="color: #33ff33; font-size: 20px"
+          href="https://verify.w3schools.com/1O8RFCZX4W"
+          >C# Developer certificate
+        </a>
+      </div>
+
+      <div class="info" id="skills">
+        <p>
+          HTML , CSS , Python , C# WPF , UWP , C# .Net Maui , C# , JavaScript ,
+          Dart , Swift , Kotlin , Java , PHP
+        </p>
+      </div>
+    </div>
+    <a
+      style="color: #33ff33; font-size: 20px"
+      href="https://aoestudios.at/"
+      class="copyright"
+      >Copyright © 2024 AOESTUDIOS. All Rights Reserved. CLick Me
+    </a>
+  </body>
+</html>
